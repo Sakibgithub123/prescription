@@ -1,0 +1,296 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none;
+   
+    
+}
+.container{
+    width: 100%;
+    object-fit: contain;
+    background-color: #fff;
+    padding: 20px; 
+     
+   
+}
+.container a{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: crimson;
+}
+.container .content{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.container .card1{
+   flex: 1 1 300px;
+    border: 2px solid black;
+    padding: 5px;
+    
+    text-align: justify;
+    margin: 0 10px;
+    height: auto;
+    
+    
+}
+.container .card2{
+    /* max-width: 300px; */
+    border: 2px solid black;
+    padding: 5px;
+    flex: 1 1 200px;
+    text-align: justify;
+    margin: 0 10px;
+    
+    
+}
+.container .card3{
+    /* max-width: 300px; */
+    border: 2px solid black;
+    flex: 1 1 300px;
+    padding: 5px;
+    text-align: justify;
+    margin: 0 10px;
+    
+    
+}
+.container  h1{
+   
+    background-color: black;
+    font-weight: 700;
+    padding: 2px;
+    color: whitesmoke;
+    justify-content: center;
+    font-size: 28px;
+}
+.container  p{
+    margin: 10px 0;
+    color: rgb(41, 37, 37);
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+.container .patient{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 30px 0;
+    padding: 8px;
+    width: 100%;
+}
+.container .patient .name,
+.container .patient .age{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.complain-list{
+    border-right: 1px solid black;
+    max-width: 250px;
+    padding: 10px;
+    
+
+    
+}
+.patient-info{
+    /* height: 100%; */
+    width: 100%;
+}
+
+/* .complain{
+    margin: 10px 0;
+    
+} */
+.complain h3{
+    font-size: 22px;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 8px;
+    margin: 8px 0;
+}
+.complain ul li{
+    font-size: 15px;
+}
+.patient-info{
+    display: flex;
+}
+
+
+
+/* input{
+    padding: 10px ;
+    font-size: 15px;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    
+} 
+*/
+.browsers{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.browsers:hover{
+    border-color: crimson;
+}
+
+.list{
+    width: 80%;
+}
+
+datalist{
+    color: rgb(128, 21, 21);
+}
+datalist option{
+    font-size: 25px;
+    background-color: #333;
+}
+
+
+
+.medicine_input{
+    margin: 5px 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.medicine_input:hover{
+    border-color: crimson;
+}
+
+
+
+
+.btn{
+    border-radius: 10px;
+    background-color: #fbd9d0;
+    color: crimson;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin-top: 5px;
+    outline: none;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.btn:hover{
+    color: #fff;
+    background: crimson;
+    transform: scale(1.1);
+    
+}
+.btn:focus{
+    transform: rotate(5deg);
+}
+
+
+.rules{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    padding: 20px;
+    font-size: 12px;
+    position: absolute;
+  
+}
+.rules dt {
+   
+    font-weight: bold;
+    font-size: 15px;
+}
+.rules  dd{
+    font-size: 12px;
+}
+.rules p{
+    
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+
+.rx{
+    margin-left: 20px;
+    font-size: 25px;
+}
+#bttn{
+    background-color: #fbd9d0;
+    color: crimson;
+    padding: 10px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s ease;
+}#bttn:hover{
+    transform: scale(1.1);
+}
+#bttn:focus{
+    transform: rotate(-45deg);
+}
+ul li{
+    margin: 5px;
+    
+}
+
+
+#tbody tr td{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.remove{
+    display: none;
+}
+
+
+
+html{
+    
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+@media print{
+    @page{
+        size: A4;
+        margin: 0;
+    }
+    button[name="bttn"]{
+        display: none;
+    }
+    .medicine_input{
+        display: none;
+    }
+    .browsers{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .container a{
+        display: none;
+    }
+.rules .f{
+    position: fixed;
+}
+}

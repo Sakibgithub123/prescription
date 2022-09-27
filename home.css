@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+   width: 100%;
+   background:  #fff;
+    min-height: 100vh; 
+    padding: 20px;
+   
+    
+}
+
+.chemberitem{
+     display: flex; 
+     flex-wrap: wrap;
+    padding: 20px;
+  
+     /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr)); 
+   */
+   
+  
+}
+
+.home  .chember{
+    flex: 1 1 100px;
+    
+   max-width: 400px;
+   
+    padding: 20px;
+    text-align: justify;
+    background-color: white;
+    margin: 30px;
+    border-radius: 5px;
+    border: 2px solid crimson;
+    margin-top: 6rem;
+    box-shadow: 0 5px 10px rgb(0, 0, 0.1);
+    
+}
+
+.home  .chember h1{
+    letter-spacing: 1px;
+    color: #333;
+    padding: 10px;
+}
+.home  .chember p{
+    letter-spacing: 1px;
+    color: rgb(66, 60, 60);
+    padding: 6px;
+}
+.home  .chember h3{
+    letter-spacing: 1px;
+    color: rgb(23, 23, 23);
+    padding: 5px;
+}
+.home  .chember button{
+   
+   width: 100%;
+    padding: 10px 20px;
+    background-color: crimson;
+   
+    border-radius: 5px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    
+}
+.home  .chember button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    transition: .2s ease;
+
+}
+.home  .chember a:hover{
+    color: #333;
+    letter-spacing: 1px;
+}
+
+
+/* add chember */
+
+.form{
+    background-color:#fff ;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+
+    
+}
+form{
+    background-color: #eee;
+   max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    margin-top: 90px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0.1);
+}
+form h1{
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+}
+form input,form textarea,form select{
+    width: 100%;
+   padding: 10px 10px;
+   margin: 10px 0;
+    resize: none; 
+   background: #eee;
+   font-size: 18px;
+}
+form select option{
+    background: #fff;
+ }
+ 
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: crimson;
+    border-radius: 5px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    transition: .2s ease;
+    font-size: 18px;
+    color:  whitesmoke ;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #333;
+    letter-spacing: 1px;
+}
+
+
+.error-msg{
+    margin: 10px 0;
+    background: crimson;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+

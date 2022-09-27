@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(86, 123, 111);
+
+}
+
+.form-container form{
+    background: #fff;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0.1);
+}
+.form-container form h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.form-container form input,
+.form-container form select{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 5px;
+    background: #eee;
+    text-transform: none;
+
+}
+.form-container form select option{
+    background-color: #fff;
+}
+.form-container form .form-btn{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: crimson;
+    border-radius: 5px;
+    font-size: 18px ;
+    color: whitesmoke;
+    margin: 8px;
+    border: none;
+    outline: none;
+    transition: .2s ease;
+}
+.form-container form .form-btn:hover{
+    color: #333;
+    letter-spacing: 1px;
+}
+.form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.form-container form .error-msg{
+    margin: 10px 0;
+    background: crimson;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
